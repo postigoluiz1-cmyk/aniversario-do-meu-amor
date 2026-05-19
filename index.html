@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz aniversário meu amor 💕</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700&family=IM+Fell+English:ital@0;1&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-trail" id="cursorTrail"></div>
+
+  <!-- Background Canvas: Particles, Bats, Smoke -->
+  <canvas id="bgCanvas"></canvas>
+
+  <!-- ════════════════════════════════════════
+       SECTION 1 — HERO
+  ════════════════════════════════════════ -->
+  <section id="hero" class="section hero-section">
+    <div class="hero-arch-top"></div>
+
+    <div class="hero-side-pillar left-pillar">
+      <div class="pillar-ornament">⸻</div>
+      <div class="pillar-rose">🥀</div>
+      <div class="pillar-ornament">⸻</div>
+      <div class="pillar-symbol">✦</div>
+      <div class="pillar-ornament">⸻</div>
+      <div class="pillar-rose">🥀</div>
+      <div class="pillar-ornament">⸻</div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-outer-frame">
+        <div class="hero-frame-corner hfc-tl"></div>
+        <div class="hero-frame-corner hfc-tr"></div>
+        <div class="hero-frame-corner hfc-bl"></div>
+        <div class="hero-frame-corner hfc-br"></div>
+
+        <div class="hero-inner-frame">
+          <div class="hero-ornament-row">
+            <span class="orn-line">━━━━━</span>
+            <span class="orn-center-symbol">✦</span>
+            <span class="orn-line">━━━━━</span>
+          </div>
+
+          <div class="hero-eye">☽ ✦ ☾</div>
+
+          <h1 class="main-title">
+            <span class="title-top-line">Feliz Aniversário</span>
+            <span class="title-bottom-line">minha morceguinha 🤍</span>
+          </h1>
+
+          <div class="subtitle-row">
+            <span class="sub-orn">❧</span>
+            <p class="subtitle-text">Eu te amo muito</p>
+            <span class="sub-orn">❧</span>
+          </div>
+
+          <div class="hero-divider-full">
+            <div class="hdivider-line"></div>
+            <div class="hdivider-center">🦇</div>
+            <div class="hdivider-line"></div>
+          </div>
+
+          <div class="date-block">          
+         <span class="date-value">20/05/2026</span>
+          </div>
+
+          <div class="hero-ornament-row bottom-row">
+            <span class="orn-line">━━━━━</span>
+            <span class="orn-center-symbol">❦</span>
+            <span class="orn-line">━━━━━</span>
+          </div>
+
+          <a href="#messages" class="gothic-btn">
+            <span class="btn-orn">⊱</span>
+            Avançar
+            <span class="btn-orn">⊰</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-side-pillar right-pillar">
+      <div class="pillar-ornament">⸻</div>
+      <div class="pillar-rose">🥀</div>
+      <div class="pillar-ornament">⸻</div>
+      <div class="pillar-symbol">✦</div>
+      <div class="pillar-ornament">⸻</div>
+      <div class="pillar-rose">🥀</div>
+      <div class="pillar-ornament">⸻</div>
+    </div>
+
+    <div class="hero-arch-bottom"></div>
+
+    <div class="candles-row">
+      <div class="candle-wrap"><div class="candle-body"></div><div class="candle-flame" style="animation-delay:0s"></div></div>
+      <div class="candle-wrap"><div class="candle-body tall"></div><div class="candle-flame" style="animation-delay:0.3s"></div></div>
+      <div class="candle-wrap"><div class="candle-body med"></div><div class="candle-flame" style="animation-delay:0.6s"></div></div>
+      <div class="spacer-mid"></div>
+      <div class="candle-wrap"><div class="candle-body med"></div><div class="candle-flame" style="animation-delay:0.9s"></div></div>
+      <div class="candle-wrap"><div class="candle-body tall"></div><div class="candle-flame" style="animation-delay:0.2s"></div></div>
+      <div class="candle-wrap"><div class="candle-body"></div><div class="candle-flame" style="animation-delay:0.7s"></div></div>
+    </div>
+  </section>
+
+  <div class="glow-separator"></div>
+
+  <!-- ════════════════════════════════════════
+       SECTION 2 — ROMANTIC MESSAGES
+  ════════════════════════════════════════ -->
+  <section id="messages" class="section messages-section">
+    <div class="section-header">
+      <div class="section-wings">
+        <span class="wing-text">〰〰〰〰</span>
+        <span class="wing-icon">𖤓</span>
+        <span class="wing-text">〰〰〰〰</span>
+      </div>
+      <h2 class="section-title">Palavras do Além</h2>
+      <p class="section-subtitle"><em>Susurradas nas Câmaras do Coração</em></p>
+      <div class="section-title-line">
+        <span class="stl-line"></span>
+        <span class="stl-gem">✦</span>
+        <span class="stl-line"></span>
+      </div>
+    </div>
+
+    <div class="messages-grid">
+
+      <article class="msg-card" data-index="0">
+        <div class="mc-corner mc-tl"></div>
+        <div class="mc-corner mc-tr"></div>
+        <div class="mc-corner mc-bl"></div>
+        <div class="mc-corner mc-br"></div>
+        <div class="mc-inner-border"></div>
+        <div class="mc-numeral">Ⅰ</div>
+        <div class="mc-top-ornament">✦ ✦ ✦</div>
+        <p class="mc-text">
+          "No labirinto das sombras encontrei a luz que me perdeu — e me salvou.
+          Cada momento contigo é um ritual sagrado, gravado nas paredes da eternidade."
+        </p>
+        <div class="mc-bottom-ornament">❧</div>
+      </article>
+
+      <article class="msg-card" data-index="1">
+        <div class="mc-corner mc-tl"></div>
+        <div class="mc-corner mc-tr"></div>
+        <div class="mc-corner mc-bl"></div>
+        <div class="mc-corner mc-br"></div>
+        <div class="mc-inner-border"></div>
+        <div class="mc-numeral">Ⅱ</div>
+        <div class="mc-top-ornament">✦ ✦ ✦</div>
+        <p class="mc-text">
+          "Teu amor é o único sangue que corre mais quente que as chamas do meu coração.
+          Nenhuma maldição poderia me afastar de tua presença, minha luz nas trevas eternas."
+        </p>
+        <div class="mc-bottom-ornament">❧</div>
+      </article>
+
+      <article class="msg-card" data-index="2">
+        <div class="mc-corner mc-tl"></div>
+        <div class="mc-corner mc-tr"></div>
+        <div class="mc-corner mc-bl"></div>
+        <div class="mc-corner mc-br"></div>
+        <div class="mc-inner-border"></div>
+        <div class="mc-numeral">Ⅲ</div>
+        <div class="mc-top-ornament">✦ ✦ ✦</div>
+        <p class="mc-text">
+          "Que os deuses sombrios testemunhem: entre todas as almas perdidas,
+          escolhi a tua. Neste aniversário, renovo meu pacto de amor para além da morte."
+        </p>
+        <div class="mc-bottom-ornament">❧</div>
+      </article>
+
+    </div>
+
+    <div class="messages-footer-ornament">
+      <span>⸻⸻</span><span class="mfo-sym">✦ 🌹 ✦</span><span>⸻⸻</span>
+    </div>
+  </section>
+
+  <div class="glow-separator blood-sep"></div>
+
+  <!-- ════════════════════════════════════════
+       SECTION 3 — GALLERY
+  ════════════════════════════════════════ -->
+  <section id="gallery" class="section gallery-section">
+    <div class="section-header">
+      <div class="section-wings">
+        <span class="wing-text">〰〰〰〰</span>
+        <span class="wing-icon">⚜</span>
+        <span class="wing-text">〰〰〰〰</span>
+      </div>
+      <h2 class="section-title">Fotos importantes pra gente</h2>
+      <div class="section-title-line">
+        <span class="stl-line"></span>
+        <span class="stl-gem">✦</span>
+        <span class="stl-line"></span>
+      </div>
+    </div>
+
+    <div class="gallery-mosaic">
+
+      <div class="gal-frame gf-large" onclick="openLightbox(this, 'Amo você')">
+        <div class="gf-outer">
+          <div class="gf-corner gfc-tl"></div>
+          <div class="gf-corner gfc-tr"></div>
+          <div class="gf-corner gfc-bl"></div>
+          <div class="gf-corner gfc-br"></div>
+          <div class="gf-inner">
+            <div class="gf-photo-area">
+             <img src="images/agatha3.jpeg">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="gal-frame gf-portrait gf-featured" onclick="openLightbox(this, 'Nossa Essência')">
+        <div class="gf-outer">
+          <div class="gf-corner gfc-tl"></div>
+          <div class="gf-corner gfc-tr"></div>
+          <div class="gf-corner gfc-bl"></div>
+          <div class="gf-corner gfc-br"></div>
+          <div class="gf-inner">
+            <div class="gf-photo-area">
+              <img src="images/agatha1.jpeg" alt="Nossa essência">
+            </div>
+          </div>
+        </div>
+        <p class="gf-caption">✦ Minha favorita ✦</p>
+      </div>
+
+      <div class="gal-frame gf-small" onclick="openLightbox(this, 'Te amo')">
+        <div class="gf-outer">
+          <div class="gf-corner gfc-tl"></div>
+          <div class="gf-corner gfc-tr"></div>
+          <div class="gf-corner gfc-bl"></div>
+          <div class="gf-corner gfc-br"></div>
+          <div class="gf-inner">
+            <div class="gf-photo-area">
+              <img src="images/agatha2.jpeg" alt="Momento Sagrado">
+            </div>
+          </div>
+        </div>
+
+      <div class="gal-frame gf-small" onclick="openLightbox(this, 'Cumplicidade')">
+        <div class="gf-outer">
+          <div class="gf-corner gfc-tl"></div>
+          <div class="gf-corner gfc-tr"></div>
+          <div class="gf-corner gfc-bl"></div>
+          <div class="gf-corner gfc-br"></div>
+          <div class="gf-inner">
+            <div class="gf-photo-area">
+              <img src="images/foto4.jpg" alt="Cumplicidade">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="gal-frame gf-wide" onclick="openLightbox(this, 'Pacto Eterno')">
+        <div class="gf-outer">
+          <div class="gf-corner gfc-tl"></div>
+          <div class="gf-corner gfc-tr"></div>
+          <div class="gf-corner gfc-bl"></div>
+          <div class="gf-corner gfc-br"></div>
+          <div class="gf-inner">
+            <div class="gf-photo-area">
+              <img src="images/foto5.jpg" alt="Pacto Eterno">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+      <div class="lb-panel" onclick="event.stopPropagation()">
+        <button class="lb-close" onclick="closeLightbox()">✕</button>
+        <div class="lb-corner lb-tl"></div>
+        <div class="lb-corner lb-tr"></div>
+        <div class="lb-corner lb-bl"></div>
+        <div class="lb-corner lb-br"></div>
+        <div class="lb-content" id="lbContent"></div>
+        <p class="lb-caption" id="lbCaption"></p>
+      </div>
+    </div>
+  </section>
+
+  <div class="glow-separator"></div>
+
+  <!-- ════════════════════════════════════════
+       SECTION 4 — SPOTIFY PLAYLIST
+  ════════════════════════════════════════ -->
+  <section id="playlist" class="section playlist-section">
+    <div class="section-header">
+      <div class="section-wings">
+        <span class="wing-text">〰〰〰〰</span>
+        <span class="wing-icon">♩</span>
+        <span class="wing-text">〰〰〰〰</span>
+      </div>
+      <h2 class="section-title">Músicas que te dedico</h2>
+      <div class="section-title-line">
+        <span class="stl-line"></span>
+        <span class="stl-gem">✦</span>
+        <span class="stl-line"></span>
+      </div>
+    </div>
+
+    <div class="spotify-vessel">
+      <div class="sv-outer-border">
+        <div class="sv-corner sv-tl"></div>
+        <div class="sv-corner sv-tr"></div>
+        <div class="sv-corner sv-bl"></div>
+        <div class="sv-corner sv-br"></div>
+        <div class="sv-ornament-top">
+          <span>━━━</span><span class="sv-orn-sym">✦ ♩ ✦</span><span>━━━</span>
+        </div>
+        <div class="sv-iframe-wrap">
+          <!--
+            INSTRUÇÕES: Substitua o URL abaixo pelo link da sua playlist do Spotify.
+            Exemplo: https://open.spotify.com/embed/playlist/SEU_PLAYLIST_ID?utm_source=generator&theme=0
+          -->
+          <iframe
+            id="spotifyEmbed"
+            src="https://open.spotify.com/embed/playlist/5tY76MDhLvAKA0RXbBIW4o?si=ayx2iYAuQp-9HXMZ4v-l9w"
+            width="100%"
+            height="380"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy">
+          </iframe>
+        </div>
+        <div class="sv-ornament-bottom">
+          <span>━━━</span><span class="sv-orn-sym">❦</span><span>━━━</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="glow-separator blood-sep"></div>
+
+  <!-- ════════════════════════════════════════
+       SECTION 5 — INTERACTIVE LETTER
+  ════════════════════════════════════════ -->
+  <section id="letter" class="section letter-section">
+    <div class="section-header">
+      <div class="section-wings">
+        <span class="wing-text">〰〰〰〰</span>
+        <span class="wing-icon">✉</span>
+        <span class="wing-text">〰〰〰〰</span>
+      </div>
+      <h2 class="section-title">Cartinha que eu escrevi</h2>
+      <p class="section-subtitle"><em>Selada com Sangue &amp; Amor</em></p>
+      <div class="section-title-line">
+        <span class="stl-line"></span>
+        <span class="stl-gem">✦</span>
+        <span class="stl-line"></span>
+      </div>
+    </div>
+
+    <div class="letter-stage">
+
+      <!-- Envelope -->
+      <div class="envelope" id="envelope" onclick="triggerLetter()">
+        <div class="env-shadow"></div>
+        <div class="env-body">
+          <div class="env-corner env-c-tl"></div>
+          <div class="env-corner env-c-tr"></div>
+          <div class="env-corner env-c-bl"></div>
+          <div class="env-corner env-c-br"></div>
+          <div class="env-liner-left"></div>
+          <div class="env-liner-right"></div>
+          <div class="env-center-crease"></div>
+        </div>
+        <div class="env-flap" id="envFlap">
+          <div class="env-flap-inner"></div>
+        </div>
+        <div class="env-seal-group" id="envSealGroup">
+          <div class="wax-seal">
+            <div class="wax-outer"></div>
+            <div class="wax-inner">
+              <span class="wax-glyph">❦</span>
+            </div>
+          </div>
+          <p class="env-click-hint">✦ Clique para abrir ✦</p>
+        </div>
+      </div>
+
+      <!-- Parchment Letter -->
+      <div class="parchment-wrap" id="parchmentWrap">
+        <div class="parch-roll-top">
+          <div class="roll-knob left-knob"></div>
+          <div class="roll-body-top"></div>
+          <div class="roll-knob right-knob"></div>
+        </div>
+        <div class="parch-body">
+          <div class="parch-left-border"></div>
+          <div class="parch-right-border"></div>
+          <div class="parch-content">
+            <div class="parch-header-orn">✦ ❦ ✦</div>
+            <h3 class="parch-salutation">Para Morgan,</h3>
+
+            <div class="parch-text">
+              <p>Neste dia que marca um ano desde que os destinos conspiraram para nos unir, sento-me diante deste pergaminho com o coração transbordando de sentimentos que nenhuma língua mortal poderia capturar completamente.</p>
+
+              <p>Tu chegaste à minha vida como um raio de lua atravessa as nuvens tempestuosas — inesperadamente, magnificentemente, transformando a escuridão em algo de uma beleza profunda e inquietante.</p>
+
+              <p>Em cada sombra que caminhamos juntos, em cada riso que ecoou pelos corredores do nosso mundo particular, em cada silêncio compartilhado que falava mais alto que mil palavras — foi lá que aprendi o verdadeiro significado do amor.</p>
+
+              <p>Não o amor suave e passageiro dos contos de fadas, mas um amor denso, real, capaz de sobreviver às mais severas tormentas. Um amor que abraça tanto a luz quanto a escuridão de cada um.</p>
+
+              <p>Que este aniversário seja apenas o primeiro capítulo de um grimório eterno. Que escrevamos juntos histórias que transcendam o tempo, o espaço e todas as maldições que este mundo possa lançar sobre nós.</p>
+
+              <p>Estarei aqui, sempre, nas trevas e na luz — teu companheiro eterno, tua âncora e teu horizonte.</p>
+            </div>
+
+            <div class="parch-signature">
+              <p class="sig-line">De:</p>
+              <p class="sig-name">— Luiz ❦</p>
+            </div>
+
+            <div class="parch-footer-orn">✦ ❦ ✦</div>
+          </div>
+        </div>
+        <div class="parch-roll-bottom">
+          <div class="roll-knob left-knob"></div>
+          <div class="roll-body-bottom"></div>
+          <div class="roll-knob right-knob"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════ FOOTER ════ -->
+  <footer class="gothic-footer">
+    <div class="gf-top-border"></div>
+    <div class="footer-inner">
+      <div class="footer-orn-row">
+        <span class="for-line">⸻⸻⸻</span>
+        <span class="for-sym">❧</span>
+        <span class="for-line">⸻⸻⸻</span>
+      </div>
+     <p class="footer-main">✦ Eu te amo bestinha, feliz aniversário ❤ ✦</p>
+      <p class="footer-sub">parabéns pelos 15 anos meu amor</p>
+      <div class="footer-orn-row">
+        <span class="for-line">⸻⸻⸻</span>
+        <span class="for-sym">❧</span>
+        <span class="for-line">⸻⸻⸻</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
